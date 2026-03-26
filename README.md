@@ -172,3 +172,4 @@ Students need to see Kubernetes "breathe" by adding more pods automatically.
 3.  **Scaling Logic:** Based on your load test, how long did it take for the HPA to trigger the second pod? Research the "Stabilization Window" in Kubernetes HPA documentation.
 4.  **Fault Tolerance:** Delete the running pod using `kubectl delete pod [pod-name]`. What does Kubernetes do immediately after? How does this relate to the "Desired State" concept?
 5.  **ML Implementation:** Modify the `app.py` to include a second route `/health` that returns a 200 OK status. Update the Kubernetes `manifest.yaml` to include a `livenessProbe` using this new route.
+# kubernetes-deployments-M-Owaisis
